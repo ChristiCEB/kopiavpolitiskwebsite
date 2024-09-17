@@ -42,11 +42,10 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: url('') no-repeat center center/cover;
     color: rgb(0, 0, 0);
     padding: 100px 20px;
     text-align: center;
-}whats the diffrence between box and feColorMatrix
+}
 
 h2 {
     text-align: center;
