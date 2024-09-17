@@ -1,0 +1,149 @@
+/* Hoved */
+body {
+    font-family: Times, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #693030;
+    color: #fff;
+  }
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    padding: 100px 20px;
+    text-align: center;
+}whats the diffrence between box and feColorMatrix
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+/* Nyheter */
+.news-section {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.news-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-item {
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.news-item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.news-item p {
+    font-size: 0.9rem;
+}
+
+.news-item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+/* Kontakt */
+#contact {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #693030;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: auto;
+    height: auto;
+    max-height: 200px;
+    resize: none;
+  }
